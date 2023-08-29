@@ -3,13 +3,16 @@
     padding: 10px;
     /* background-color: aliceblue; */
 }
-/* .content {
-    background-color: darkviolet;
-} */
+.TimeContainer {
+    /* background-color: forestgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .Time {
     font-size: 180px;
     margin: 0px;
-    padding-left: 90px;
+    /* padding-left: 90px; */
     color: #00c2cb;
 }
 .inputsbuttons {
@@ -55,6 +58,12 @@
 }
 .buttonsDiv {
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* background-color: slategrey; */
 }
 .startBtn {
     width: 60px;
@@ -63,7 +72,7 @@
     border: 3px solid #FF0054;
     background-color: #00c2cb;
     cursor: pointer;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 .startBtnImg {
     width: 40px;
@@ -79,7 +88,7 @@
     border: 3px solid #FF0054;
     background-color: #00c2cb;
     cursor: pointer;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 .stopBtnImg {
     width: 40px;
@@ -95,7 +104,7 @@
     border: 3px solid #FF0054;
     background-color: #00c2cb;
     cursor: pointer;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 .flagBtnImg {
     width: 40px;
