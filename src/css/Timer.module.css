@@ -12,7 +12,6 @@
 .Time {
     font-size: 180px;
     margin: 0px;
-    /* padding-left: 90px; */
     color: #00c2cb;
 }
 .inputsbuttons {
@@ -39,6 +38,7 @@
 .label {
     margin-bottom: 5px;
     color: #FF0054;
+    font-family: 'Rubik', sans-serif;
 }
 .input {
     width: 200px;
@@ -50,6 +50,7 @@
     padding: 10px;
     font-size: 25px;
     background-color: transparent;
+    font-family: 'Rubik', sans-serif;
 }
 .input:focus {
     outline: none;
@@ -121,7 +122,7 @@
     background-color: #00c2cb;
     cursor: pointer;
 }
-.resetBtnIMg {
+.resetBtnImg {
     width: 40px;
 }
 .resetBtn:hover {
@@ -136,6 +137,7 @@
     align-items: center;
     color: #00c2cb;
     font-size: 28px;
+    font-family: 'Rubik', sans-serif;
 }
 .endContainer {
     display: flex;
@@ -150,8 +152,248 @@
     border: 2px solid #FF0054;
     border-radius: 6px;
     cursor: pointer;
+    font-family: 'Rubik', sans-serif;
 }
 .clearBtn:hover {
     background-color: #FF0054;
     border-color: #00c2cb;
+}
+
+/* Mobile Responsive */
+@media only screen and (min-width: 290px) and (max-width: 420px) {
+    .mainDiv {
+        margin: 10px;
+        padding: 10px;
+    }
+    .TimeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .Time {
+        font-size: 54px;
+        margin: 0px;
+        color: #00c2cb;
+        align-items: center;
+    }
+    .inputsbuttons {
+        flex-direction: column;
+    }
+    .inputsDiv {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .label {
+        font-size: 12px;
+    }
+    .input {
+        border: 1px solid #FF0054;
+        font-size: 20px;
+    }
+    .buttonsDiv {
+        flex-direction: row;
+    }
+    .startBtn {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .startBtnImg {
+        width: 35px;
+    }
+    .stopBtn {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .stopBtnImg {
+        width: 35px;
+    }
+    .flagBtn{
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .flagBtnImg {
+        width: 35px;
+    }
+    .resetBtn {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .resetBtnImg {
+        width: 35px;
+    }
+    .flagData {
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    ul{
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 556px) {
+    .mainDiv {
+        margin: 10px;
+        padding: 10px;
+    }
+    .TimeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .Time {
+        font-size: 70px;
+        margin: 0px;
+        color: #00c2cb;
+        align-items: center;
+    }
+    .inputsbuttons {
+        flex-direction: column;
+    }
+    .inputsDiv {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .label {
+        font-size: 12px;
+    }
+    .input {
+        border: 1px solid #FF0054;
+        font-size: 20px;
+    }
+    .buttonsDiv {
+        flex-direction: row;
+    }
+    .startBtn {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .startBtnImg {
+        width: 35px;
+    }
+    .stopBtn {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .stopBtnImg {
+        width: 35px;
+    }
+    .flagBtn{
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .flagBtnImg {
+        width: 35px;
+    }
+    .resetBtn {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .resetBtnImg {
+        width: 35px;
+    }
+    .flagData {
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    ul{
+        padding: 0px;
+    }
+}
+
+
+@media only screen and (min-width: 556px) and (max-width: 767px) {
+    .mainDiv {
+        margin: 10px;
+        padding: 10px;
+    }
+    .TimeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .Time {
+        font-size: 100px;
+        margin: 0px;
+        color: #00c2cb;
+        align-items: center;
+    }
+    .inputsbuttons {
+        flex-direction: column;
+    }
+    .inputsDiv {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .label {
+        font-size: 12px;
+    }
+    .input {
+        border: 1px solid #FF0054;
+        font-size: 20px;
+    }
+    .buttonsDiv {
+        flex-direction: row;
+    }
+    .startBtn {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .startBtnImg {
+        width: 35px;
+    }
+    .stopBtn {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .stopBtnImg {
+        width: 35px;
+    }
+    .flagBtn{
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .flagBtnImg {
+        width: 35px;
+    }
+    .resetBtn {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF0054;
+    }
+    .resetBtnImg {
+        width: 35px;
+    }
+    .flagData {
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    ul{
+        padding: 0px;
+    }
 }
