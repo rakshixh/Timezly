@@ -1,0 +1,148 @@
+.mainDiv {
+    margin: 10px;
+    padding: 10px;
+    /* background-color: aliceblue; */
+}
+/* .content {
+    background-color: darkviolet;
+} */
+.Time {
+    font-size: 180px;
+    margin: 0px;
+    padding-left: 90px;
+    color: #00c2cb;
+}
+.inputsbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: tomato; */
+}
+.inputsDiv {
+    margin-top: 40px;
+    /* background-color: deeppink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.label {
+    margin-bottom: 5px;
+    color: #FF0054;
+}
+.input {
+    width: 200px;
+    height: 20px;
+    color: #FF0054;
+    border-radius: 6px;
+    border: 3px solid #FF0054;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: transparent;
+}
+.input:focus {
+    outline: none;
+    border-color: #00c2cb;
+    color: #00c2cb;
+}
+.buttonsDiv {
+    margin-top: 40px;
+}
+.startBtn {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 3px solid #FF0054;
+    background-color: #00c2cb;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.startBtnImg {
+    width: 40px;
+}
+.startBtn:hover {
+    background-color: #FF0054;
+    border-color: #00c2cb;
+}
+.stopBtn {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 3px solid #FF0054;
+    background-color: #00c2cb;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.stopBtnImg {
+    width: 40px;
+}
+.stopBtn:hover {
+    background-color: #FF0054;
+    border-color: #00c2cb;
+}
+.flagBtn{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 3px solid #FF0054;
+    background-color: #00c2cb;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.flagBtnImg {
+    width: 40px;
+}
+.flagBtn:hover {
+    background-color: #FF0054;
+    border-color: #00c2cb;
+}
+.resetBtn {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 3px solid #FF0054;
+    background-color: #00c2cb;
+    cursor: pointer;
+}
+.resetBtnIMg {
+    width: 40px;
+}
+.resetBtn:hover {
+    background-color: #FF0054;
+    border-color: #00c2cb;
+}
+.flagData {
+    /* background-color: cornsilk; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00c2cb;
+    font-size: 28px;
+}
+.endContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clearBtn {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #00c2cb;
+    border: 2px solid #FF0054;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.clearBtn:hover {
+    background-color: #FF0054;
+    border-color: #00c2cb;
+}
